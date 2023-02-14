@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+:root{
+    --maincolor:yellow;
+}
+header{
+   background-image:url("mountains-ga049e0b3f_1920.jpg") ;
+background-size: cover;
+    height:100vh ;
+}
+.navbar{
+  
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color:#313131;
+    padding: 10px 0; 
+}
+.navbar_logo{
+    font-size:18px ;
+    color:var(--maincolor);
+    text-decoration: none;
+    margin-left:28px ;
+
+    
+}
+
+.navbar_list{
+    display:flex;
+   
+    list-style-type:none ;
+  
+    
+} 
+
+.navbar_list li{
+   padding:25px ;
+   color: aliceblue;
+ 
+}
+.navbar_list .fa-solid,.fa-brands{
+   color:var(--maincolor) ;
+}
+.navbar_search{
+ 
+margin-right:22px ;
+
+border-radius:20px;
+
+}
+.navbar_search input{
+  
+    padding:6px ;
+   border-radius:20px ;
+   margin-right:2px ; 
+   border:none ;
+   outline: none; 
+}
+/* header body section */
+.header_body{
+  
+   margin:10px 0 ;
+   display: flex;
+   justify-content: space-around;
+   align-items: center; 
+}
+.header_body_left{
+width:40% ;
+}
+.header_title{
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+ line-height:45px ;
+ margin-left:11px ;
+}
+span{
+    color:var(--maincolor);
+}
+.header_desc{
+    font-size:15px;
+   margin:10px ;
+    font-family: 'Poppins', sans-serif;
+}
+.header_btn{
+    padding: 5px 8px;
+   color: black;
+   background-color:var(--maincolor) ;
+   border-radius:10px ;
+   padding:6px 12px ;
+  margin-top: 10px;
+   outline:none ;
+}
+/* header body right */
+.header_body_right{
+    margin-top:50px ;
+    background-color:#1D1D1D ;
+width: 25%;
+height:55vh ;
+padding: 22px;
+box-shadow: 1px 1px 2px var(--maincolor) ;
+
+}
+.header_login_details{
+    font-size:25px ;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+text-transform: capitalize;
+}
+.header_details{
+   align-items: center;
+   margin:5px 0 ;
+display: flex;
+
+}
+.header_details .fa-solid{
+    color:var(--maincolor);
+    margin-right:6px ;
+    font-size: 15px;
+}
+.header_details input{
+    flex:1;
+    padding:5px ;
+    border:none ;
+    outline:none ;
+}
+.password_forgot{
+    text-align: right;
+}
+.header_new_account{
+    text-align: center;
+    margin:8px 0 ;
+    margin-bottom:20px;
+}
+.header_login_icons {
+    text-align: center;
+    margin-bottom:15px ;
+    margin-top:10px ;
+}
+.header_login_icons .fa-brands{
+font-size:20px ;
+padding:0 10px ;
+}
+.header_create{
+    text-align: center;
+    margin:8px ;
+    font-size:22px ;
+}
+.header_signup{
+    color:var(--maincolor) ;
+    font-size:19px ;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+
+}
